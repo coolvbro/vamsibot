@@ -1,10 +1,10 @@
 import tweepy
 import os
 
-consumer_key = os.environ['TWITTER_API_KEY']
-consumer_secret = os.environ['TWITTER_API_SECRET_KEY']
-access_token = os.environ['TWITTER_ACCESS_TOKEN']
-access_token_secret = os.environ['TWITTER_ACCESS_TOKEN_SECRET']
+consumer_key = os.environ['API_KEY']
+consumer_secret = os.environ['API_SECRET_KEY']
+access_token = os.environ['ACCESS_TOKEN']
+access_token_secret = os.environ['ACCESS_TOKEN_SECRET']
 
 client = tweepy.Client(
     consumer_key=consumer_key,
