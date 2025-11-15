@@ -13,5 +13,5 @@ client = tweepy.Client(
     access_token_secret=access_token_secret
 )
 
-client.create_tweet(text="vamsi erripuku")
+client.create_tweet(text="wig vamsi errip**u 🐍")
 print("Tweet sent!")
